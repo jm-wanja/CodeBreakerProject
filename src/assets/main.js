@@ -95,5 +95,5 @@ function showReplay() {
     let guessingDiv = document.getElementById('guessing-div');
     guessingDiv.style.display = 'none';
     let replayDiv = document.getElementById('replay-div');
-    replayDiv.style.diplay = 'block';
+    replayDiv.style.display = 'block';
 }
