@@ -53,8 +53,7 @@ function validateInput(input) {
     if(input.length === 4) {
         return true;
     } else {
-        let message = "Guesses must be exactly 4 characters long"
-        setMessage(message);
+        setMessage("Guesses must be exactly 4 characters long");
         return false;
     }
 }
