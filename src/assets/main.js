@@ -84,9 +84,9 @@ function showAnswer(param) {
     // document.getElementById('code').innerHTML = answer.value
     let code = document.getElementById('code')
     if (param) {
-        code.className += 'success'
+        code.className += ' success'
     } else {
-        code.className += 'failure'
+        code.className += ' failure'
     }
     code.innerHTML = answer.value;
 }
